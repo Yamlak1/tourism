@@ -6,7 +6,7 @@ function Home({ scrollToSection }) {
   return (
     <div className="h-screen w-screen relative">
       <div className="absolute inset-0 flex items-start z-10 flex-col mt-10">
-        <h1 className="text-white text-4xl p-14 font-bold mt-10 -mb-4">
+        <h1 className="text-white text-4xl p-14 font-bold mt-20 -mb-4">
           History and Heritage
         </h1>
         <span className="pl-10">
@@ -21,7 +21,7 @@ function Home({ scrollToSection }) {
       </div>
 
       <div className="absolute top-0 right-0 z-10 flex flex-col items-end mt-10">
-        <h1 className="text-white text-4xl p-14 font-bold mt-10 -mb-4">
+        <h1 className="text-white text-4xl p-14 font-bold mt-20 -mb-4">
           People and Culture
         </h1>
         <span className="pr-10">
@@ -43,7 +43,7 @@ function Home({ scrollToSection }) {
       ></div>
 
       <div className="absolute inset-0 flex items-center justify-center z-10 flex-col mt-14">
-        <h1 className="text-white text-8xl font-bold mb-4 mt-10">
+        <h1 className="text-white text-8xl font-bold mb-4 mt-20">
           Explore Ethiopia
         </h1>
         <span>
